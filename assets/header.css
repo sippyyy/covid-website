@@ -1,0 +1,29 @@
+.header{
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    height: 80px;
+    z-index: 10;
+}
+
+.header__navbar{
+    height: 100%;
+
+}
+
+.navbar__list{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar__item{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: var(--primary);
+    padding: 20px;
+    text-transform: uppercase;
+}

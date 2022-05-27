@@ -1,0 +1,32 @@
+.first__content{
+
+}
+.left__content{
+
+}
+.left__img{
+
+}
+
+.right__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0.8;
+}
+
+.right__content-title{
+    margin-bottom: 20px;
+    font-size: var(--title-size);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    color: var(--primary);
+    letter-spacing: 1.4px;
+    
+}
+
+.right__content-paragraph{
+    font-size: var(--text-size);
+    font-weight: 600;
+    
+}
