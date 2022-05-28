@@ -23,26 +23,35 @@
     <link rel="stylesheet" href="./assets/map.css">
     <link rel="stylesheet" href="./assets/solutions.css">
     <link rel="stylesheet" href="./assets/footer.css">
-
+    <link rel="stylesheet" href="./assets/music.css">
     <title>Document</title>
 
 </head>
 <body>
     <div class="main">
-        <div class="header">
+        <div class="background__music">
+            <audio autoplay loop class="music">
+                <source src="./assets/music/music.mp3" />
+            </audio>
+            <div class="control__btns">
+                <span class="music__control unmuted active"><i class="fa-solid fa-volume-high"></i></span>
+                <span class="music__control muted "><i class="fa-solid fa-volume-xmark"></i></span>
+            </div>
+        </div>
+        <div class="header visible">
             <div class="header__navbar grid">
-                <ul class="navbar__list">
-                    <li class="navbar__item"> Home </li>
-                    <li class="navbar__item"> RedZone </li>
-                    <li class="navbar__item"> Hot News </li>
-                    <li class="navbar__item"> Solutions </li>
-                </ul>
+                <div class="navbar__list">
+                    <a href="#home" class="navbar__item"> Home </a>
+                    <a href="#redzone" class="navbar__item"> RedZone </a>
+                    <a href="#news" class="navbar__item"> Hot News </a>
+                    <a href="#solutions" class="navbar__item"> Solutions </a>
+                </div>
             </div>
         </div>
         <div class="main__content grid">
-            <div class="first__content row">
+            <div id="home" class="first__content row">
                 <div class="left__content col l-8">
-                    <img class="left__img" src="https://img.freepik.com/free-vector/fight-virus-concept-doctor-nurses-use-sword-shield-fighting-covid-19-coronavirus-illustration_138260-582.jpg?w=740"  />
+                    <img class="left__img" src="./assets/img/virus.png"  />
                 </div>
                 <div class="right__content col l-4">
                     <h2 class="right__content-title">FIGHT Covid-19 Coronavirus</h2>
@@ -50,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <div class="second__content">
+        <div id="news" class="second__content">
             <div class="second__content-topic">
                 <h2 class="second__content-title"> DISCOVER THE WORLD </h2>
                 <span class="second__content-paragraph"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis iusto doloremque dignissimos! Officiis quam enim ad corrupti accusantium vitae placeat, laudantium velit rem, eos impedit cum voluptatibus suscipit non quisquam. </span>
@@ -79,7 +88,7 @@
                 </div>
             </div>
         </div>
-        <div class="map__content">
+        <div id="redzone" class="map__content">
             <div class="second__content-topic">
                 <h2 class="second__content-title"> DISCOVER THE WORLD </h2>
                 <span class="second__content-paragraph"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis iusto doloremque dignissimos! Officiis quam enim ad corrupti accusantium vitae placeat, laudantium velit rem, eos impedit cum voluptatibus suscipit non quisquam. </span>
@@ -118,60 +127,24 @@
                 </div>
             </div>
         </div>
-        <div class="container__solutions">
-            <div class="container__solutions-card">
-                <div class="card__header">
-                    <h4 class="card__title">Wash hands</h4>
-                    <span class="card__number">1</span>
-                </div>
-                <div class="card__desc">
-                    <span class="card__icon"></span>
-                    <span class="card__name">Wash your hands frequently</span>
-                    <span class="card__info">Without realizing it, we then touch our faces, transferring viruses to our eyes, nose and mouth where they can infect us. Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands</span>
-                </div>
+        <div id="solutions" class="container__solutions">
+            <div class="solution__header">
+                <h2 class="solution__title">Solutions</h2>
+                <span class="solution__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque fuga unde deserunt? Culpa excepturi molestias officiis, eaque consectetur, nisi sapiente labore officia rerum autem inventore aliquid esse reiciendis. Veritatis, aut!</span>
             </div>
-            <div class="container__solutions-card">
-                <div class="card__header">
-                    <h4 class="card__title">Wash hands</h4>
-                    <span class="card__number">1</span>
-                </div>
-                <div class="card__desc">
-                    <span class="card__icon"></span>
-                    <span class="card__name">Wash your hands frequently</span>
-                    <span class="card__info">Without realizing it, we then touch our faces, transferring viruses to our eyes, nose and mouth where they can infect us. Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands</span>
-                </div>
-            </div>
-            <div class="container__solutions-card">
-                <div class="card__header">
-                    <h4 class="card__title">Wash hands</h4>
-                    <span class="card__number">1</span>
-                </div>
-                <div class="card__desc">
-                    <span class="card__icon"></span>
-                    <span class="card__name">Wash your hands frequently</span>
-                    <span class="card__info">Without realizing it, we then touch our faces, transferring viruses to our eyes, nose and mouth where they can infect us. Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands</span>
-                </div>
-            </div>
-            <div class="container__solutions-card">
-                <div class="card__header">
-                    <h4 class="card__title">Wash hands</h4>
-                    <span class="card__number">1</span>
-                </div>
-                <div class="card__desc">
-                    <span class="card__icon"></span>
-                    <span class="card__name">Wash your hands frequently</span>
-                    <span class="card__info">Without realizing it, we then touch our faces, transferring viruses to our eyes, nose and mouth where they can infect us. Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands</span>
-                </div>
-            </div>
-            <div class="container__solutions-card">
-                <div class="card__header">
-                    <h4 class="card__title">Wash hands</h4>
-                    <span class="card__number">1</span>
-                </div>
-                <div class="card__desc">
-                    <span class="card__icon"></span>
-                    <span class="card__name">Wash your hands frequently</span>
-                    <span class="card__info">Without realizing it, we then touch our faces, transferring viruses to our eyes, nose and mouth where they can infect us. Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands</span>
+            <div class="solution">
+                <div class="solution__block">
+                    <h3 class="solution__title">Protect Yourself</h3>
+                    <button class="solution__show-more">Show more!</button>
+                    <div class="solution__cards">
+                        <div class="solution__card">
+                            <img class="card__title" src="./assets/img/wash_hand.webp"></img>
+                            <div class="card__cover">
+                                <span class="card__tag"> Avoid virus from hand </span>
+                                <span class="card__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est id tempora nobis ad quos hic, tenetur dolores sed numquam inventore magnam. Pariatur fugit minima aliquid laboriosam sint deleniti officia!</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -223,5 +196,6 @@
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script src="./slider.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>

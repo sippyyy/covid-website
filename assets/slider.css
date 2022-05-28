@@ -1,9 +1,7 @@
 .slider__container{
-    margin: 40px 0;
+    margin: 90px 0;
     max-height: 400px;
     display: flex;
-    margin: 30px 0;
-
 }
 .slider{
     max-height: 400px;

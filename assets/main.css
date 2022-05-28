@@ -19,7 +19,8 @@
 html{
     font-size: 62.5%;
     font-family: 'Delius', cursive  ;
-    color: var(--text-color)
+    color: var(--text-color);
+    scroll-behavior: smooth;
 }
 
 body{
@@ -27,5 +28,5 @@ body{
     overflow-X: hidden;
 }
 .main{
-    padding: 0 20px;
+    /* padding: 0 20px; */
 }

@@ -1,12 +1,15 @@
 .map__content{
-    margin: 60px 0;
+    margin: 90px 0;
 }
 
 .content__map{
-    padding: 50px 20px;
+    padding: 70px 20px;
 }
-.map{
 
+.map{
+    transform: translateX(-100%);
+    transition: all 0.8s ease-in-out;
+    opacity: 0;
 }
 
 .map__detail{
@@ -15,6 +18,23 @@
     justify-content: center;
     border: 1px solid var(--primary);
     margin-bottom: 5px;
+    transform: translateX(105%);
+    transition: all 0.8s ease-in-out;
+    opacity: 0;
+
+}
+
+.content__map.active .map{
+    transform: translateX(0);
+    opacity: 1;
+
+
+}
+
+.content__map.active .map__detail{
+    transform: translateY(0);
+    opacity: 1;
+
 }
 
 .map__detail-item{

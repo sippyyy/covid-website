@@ -2,12 +2,9 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "..\\Food-review-website\\FoodReview-Project"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "space-website"
+		"liveServer.settings.multiRootWorkspaceName": "covid-website"
 	}
 }
