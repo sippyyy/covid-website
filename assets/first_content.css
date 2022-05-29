@@ -6,13 +6,11 @@
     background-position: bottom;
     padding: 9% 0;
     margin-left: 0 ;
-    /* position: relative; */
 }
 .left__content{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: absolute; */
     left:0;
 }
 .left__img{
@@ -34,7 +32,6 @@
     flex-direction: column;
     justify-content: center;
     flex: 0.8;
-    /* position: absolute; */
     right: 0;
 }
 
